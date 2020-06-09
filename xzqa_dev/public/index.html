@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <link rel="stylesheet" href="/reset.css">
+  <title><%= htmlWebpackPlugin.options.isProd ? '' : 'dev - ' %>学子问答系统</title>
+  <% if(htmlWebpackPlugin.options.isProd) { %>
+  <!-- mintUI 样式 -->
+  <link rel="stylesheet" href="https://unpkg.com/mint-ui@1/lib/style.css">
+
+  <!-- js 外链 -->
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="https://unpkg.com/vue-router@3.3.2/dist/vue-router.min.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/mint-ui@1/lib/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/moment"></script>
+  <% } %>
+</head>
+
+<body>
+  <div id="app"></div>
+</body>
+
+</html>
