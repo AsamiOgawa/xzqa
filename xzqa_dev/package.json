@@ -9,7 +9,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "core-js": "^3.6.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "md5": "^2.2.1",
     "mint-ui": "^2.2.13",
     "moment": "^2.26.0",
